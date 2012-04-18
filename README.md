@@ -16,4 +16,4 @@ SundayMassReadings depends on the following other software:
 
 License
 -------
-SundayMassReadings is licensed under the MIT License [http://www.opensource.org/licenses/mit-license.php] (http://www.opensource.org/licenses/mit-license.php).
+SundayMassReadings is licensed under the [MIT License] (http://www.opensource.org/licenses/mit-license.php).
