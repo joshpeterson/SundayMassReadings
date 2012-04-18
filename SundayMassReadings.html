@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sunday Mass Readings</title>
+    <style>
+      body {
+        min-width:357px;
+        overflow-x:hidden;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+          padding-left: 10px;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <div class="header">
+        <div id="title">
+        </div>
+
+        <div id="date">
+        </div>
+    </div>
+
+    <div>
+        <ul>
+            <li><span>First Reading: </span><span id="firstReading"></span></li>
+            <li><span>Psalm: </span><span id="psalm"></span></li>
+            <li><span>Second Reading: </span><span id="secondReading"></span></li>
+            <li><span>Gospel Reading: </span><span id="gospel"></span></li>
+        </ul>
+    </div>
+
+    <script src="date.js"></script>
+    <script src="SundayMassReadings.js"></script>
+
+    <button id="previousButton">Previous Sunday</button>
+    <button id="nextButton">Next Sunday</button>
+  </body>
+</html>
