@@ -1,3 +1,6 @@
+# This software is licensed under the MIT License http://www.opensource.org/licenses/mit-license.php.
+# See https://github.com/joshpeterson/SundayMassReadings for more details.
+
 # Based on the code from here: http://stackoverflow.com/questions/2003870/how-can-i-select-all-of-the-sundays-for-a-year-using-python
 import urllib
 from datetime import date, timedelta
