@@ -1,4 +1,4 @@
-SundayMassReadings
+Sunday Mass Readings
 ============
 
 Introduction
