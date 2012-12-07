@@ -1,6 +1,6 @@
 {
   "name": "Sunday Mass Readings",
-  "version": "3.0",
+  "version": "4.0",
   "manifest_version": 2,
   "description": "Link to the latest Sunday mass readings from the USCCB.",
   "homepage_url": "http://joshpeterson.github.com/SundayMassReadings/",
@@ -15,6 +15,6 @@
   },
   "permissions": [
     "tabs",
-    "http://http://www.usccb.org/"
+    "http://www.usccb.org/"
   ]
 }

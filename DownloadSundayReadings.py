@@ -14,7 +14,7 @@ def allsundays(year):
 
 base_url = "http://www.usccb.org/bible/readings/"
 
-for d in allsundays(2012):
+for d in allsundays(2013):
    date_parts = str(d).split("-")
    date_string = date_parts[1] + date_parts[2] + date_parts[0][2:4]
    url = base_url + date_string + ".cfm"
