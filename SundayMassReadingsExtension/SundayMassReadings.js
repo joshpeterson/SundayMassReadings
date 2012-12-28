@@ -57,7 +57,7 @@ var sundayMassReadingData =
     "December 9, 2012":{title:"Second Sunday of Advent",url:"120912",first:"Bar 5:1-9",psalm:"Ps 126:1-2, 2-3, 4-5, 6",second:"Phil 1:4-6, 8-11",gospel:"Lk 3:1-6"},
     "December 16, 2012":{title:"Third Sunday of Advent",url:"121612",first:"Zep 3:14-18a",psalm:"Is 12:2-3, 4, 5-6",second:"Phil 4:4-7",gospel:"Lk 3:10-18"},
     "December 23, 2012":{title:"Fourth Sunday of Advent",url:"122312",first:"Mi 5:1-4a",psalm:"Ps 80:2-3, 15-16, 18-19",second:"Heb 10:5-10",gospel:"Lk 1:39-45"},
-    "December 30, 2012":{title:"Feast of the Holy Family of Jesus, Mary and Joseph",url:"123012",first:"Sir 3:2-6, 12-14",psalm:"1Sm 1:20-22, 24-28",second:"Ps 128:1-2, 3, 4-5",gospel:"Lk 2:41-52"},
+    "December 30, 2012":{title:"Feast of the Holy Family of Jesus, Mary and Joseph",url:"123012",first:"Sir 3:2-6, 12-14",psalm:"Ps 128:1-2, 3, 4-5",second:"Col 3:12-21",gospel:"Lk 2:41-52"},
     "January 6, 2013":{title:"Solemnity of the Epiphany of the Lord",url:"010613",first:"Is 60:1-6",psalm:"Ps 72:1-2, 7-8, 10-11, 12-13.",second:"Eph 3:2-3a, 5-6",gospel:"Mt 2:1-12"},
     "January 13, 2013":{title:"Feast of the Baptism of the Lord",url:"011313",first:"Is 42:1-4, 6-7",psalm:"Is 40:1-5, 9-11",second:"Acts 10:34-38",gospel:"Lk 3:15-16, 21-22"},
     "January 20, 2013":{title:"Second Sunday in Ordinary Time",url:"012013",first:"Is 62:1-5",psalm:"Ps 96:1-2, 2-3, 7-8, 9-10",second:"1 Cor 12:4-11",gospel:"Jn 2:1-11"},
