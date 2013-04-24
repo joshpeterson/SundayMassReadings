@@ -1,9 +1,6 @@
 Sunday Mass Readings
 ============
 
-Introduction
-------------
-
 SundayMassReadings is a Google Chrome extension which provides links to the Sunday mass readings on the USCCB website.
 
 ![Screen shot](screenshot.png)
