@@ -14,10 +14,11 @@ Download
 
 Versions
 ---------
+Version 5:
+* Fix the readings for December 30, 2012
 
 Version 4:
 * Add readings up to (and including) May 5, 2013
-* Fix the readings for December 30, 2012
 
 Version 3:
 * Fix the link for the Seventh Sunday of Easter
