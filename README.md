@@ -6,9 +6,29 @@ Introduction
 
 SundayMassReadings is a Google Chrome extension which provides links to the Sunday mass readings on the USCCB website.
 
-Website
+![Screen shot](screenshot.jpg)
+
+Download
 -------
-[http://joshpeterson.github.com/SundayMassReadings/] (http://joshpeterson.github.com/SundayMassReadings/)
+[Latest version] (https://github.com/joshpeterson/SundayMassReadings/blob/master/SundayMassReadingsExtension.crx?raw=true)
+
+Versions:
+---------
+
+Version 4:
+* Add readings up to (and including) May 5, 2013
+* Fix the readings for December 30, 2012
+
+Version 3:
+* Fix the link for the Seventh Sunday of Easter
+* Fix the link for the Pentecost
+
+Version 2:
+* Add a link to the website on the Chrome Extensions page
+
+Version 1:
+* Initial release
+* All Sunday mass readings for 2012
 
 Dependencies
 ------------
