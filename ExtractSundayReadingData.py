@@ -14,7 +14,7 @@ def BuildSundayMassReadingJson(html_string, url_string):
 
     readings = soup.find_all("a", { "class" : "book" })
     if len(readings) == 0:
-        readings = readings = soup.find_all("div", {"class":"bibleReadingsWrapper"})
+        readings = soup.find_all("div", {"class":"bibleReadingsWrapper"})
         sub_soup = BeautifulSoup(str(readings))
         sub_readings = sub_soup.find_all("a", {"href":re.compile(".*bible.*")})
 
