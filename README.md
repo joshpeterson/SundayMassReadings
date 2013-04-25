@@ -11,6 +11,9 @@ Download
 
 Versions
 ---------
+Version 6:
+* Add readings up to (and including) December 29, 2013
+
 Version 5:
 * Fix the readings for December 30, 2012
 
