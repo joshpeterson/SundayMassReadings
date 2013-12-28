@@ -15,6 +15,9 @@ The Sunday Mass Readings extension is not part of the Chrome Web Store, so you m
 
 Versions
 ---------
+Version 7:
+* Add readings up to (and including) December 28, 2014
+
 Version 6:
 * Add readings up to (and including) December 29, 2013
 
