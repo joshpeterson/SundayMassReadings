@@ -186,11 +186,9 @@ function displayMassReadingData(massReadingData, dateString)
     var headerContainer = document.getElementById("title");
     removeAllChildren(headerContainer);
     var link = document.createElement("a");
-    link.setAttribute("href", "javascript:void(0)");
+    link.setAttribute("href", baseUrl + massReadingData.url + ".cfm");
     link.innerText = massReadingData.title;
     headerContainer.appendChild(link);
-
-    link.addEventListener('click', handleClick);
 
     var firstReading = document.getElementById("firstReading");
     firstReading.innerText = massReadingData.first;
@@ -218,15 +216,6 @@ function removeAllChildren(container)
     {
         container.removeChild(container.childNodes[0]);
     }
-}
-
-function handleClick(sender)
-{
-    var massReadingData = sundayMassReadingData[getDateString(currentSundayDate)];
-    chrome.tabs.create({
-        'url': baseUrl + massReadingData.url + ".cfm",
-        'selected':true
-    });
 }
 
 function handleNextButtonClick(sender)

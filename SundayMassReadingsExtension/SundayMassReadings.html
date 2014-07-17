@@ -1,46 +1,47 @@
-<!-- This software is licensed under the MIT License http://www.opensource.org/licenses/mit-license.php. -->
-<!-- See https://github.com/joshpeterson/SundayMassReadings for more details. -->
-
 <!doctype html>
 <html>
   <head>
-    <title>Sunday Mass Readings</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
       body {
-        min-width:357px;
-        overflow-x:hidden;
         font-family:Arial, Helvetica, sans-serif;
-      }
-
-      .header {
-          padding-left: 10px;
+        font-size:18px;
       }
     </style>
-
-
+    <title>Sunday Mass Readings</title>
   </head>
   <body>
-    <div class="header">
-        <div id="title">
-        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="header">
+                    <strong>
+                        <div id="title"></div>
+                        <div id="date"></div>
+                    </strong>
+                </div>
 
-        <div id="date">
+                <div>
+                    <ul>
+                        <li><span>First Reading: </span><span id="firstReading"></span></li>
+                        <li><span>Psalm: </span><span id="psalm"></span></li>
+                        <li><span>Second Reading: </span><span id="secondReading"></span></li>
+                        <li><span>Gospel Reading: </span><span id="gospel"></span></li>
+                    </ul>
+                </div>
+
+                <script src="date.js"></script>
+                <script src="SundayMassReadings.js"></script>
+
+                <button id="previousButton" type="button" class="btn btn-lg btn-primary">Previous Sunday</button>
+                <button id="nextButton" type="button" class="btn btn-lg btn-primary">Next Sunday</button>
+                <div>
+                    <a href="https://github.com/joshpeterson/SundayMassReadings#sunday-mass-readings">About Sunday Mass Readings</a>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div>
-        <ul>
-            <li><span>First Reading: </span><span id="firstReading"></span></li>
-            <li><span>Psalm: </span><span id="psalm"></span></li>
-            <li><span>Second Reading: </span><span id="secondReading"></span></li>
-            <li><span>Gospel Reading: </span><span id="gospel"></span></li>
-        </ul>
-    </div>
-
-    <script src="date.js"></script>
-    <script src="SundayMassReadings.js"></script>
-
-    <button id="previousButton">Previous Sunday</button>
-    <button id="nextButton">Next Sunday</button>
   </body>
 </html>
