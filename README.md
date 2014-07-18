@@ -1,20 +1,16 @@
 Sunday Mass Readings
 ============
 
-Sunday Mass Readings is a Google Chrome extension which provides links to the Sunday mass readings on the USCCB website.
+[Sunday Mass Readings](http://joshpeterson.github.io/SundayMassReaduings) is a website which provides links to the Sunday mass readings on the USCCB website.
 
 ![Screen shot](screenshot.png)
 
-Installation
--------
-The Sunday Mass Readings extension is not part of the Chrome Web Store, so you must do the following to install it:
-
-1. Download the [latest version] (https://github.com/joshpeterson/SundayMassReadings/blob/master/SundayMassReadingsExtension.crx?raw=true)
-2. Go to the Extensions page in Chrome be selecting Menu > Tools > Extensions
-3. Drag the SundayMassReadings.crx file onto the Extensions page in Chrome, then confirm that you want to install the extension
-
 Versions
 ---------
+Version 8:
+* Change from a Chrome extension to a website
+* No need for versions in the future!
+
 Version 7:
 * Add readings up to (and including) December 28, 2014
 
@@ -40,7 +36,7 @@ Version 1:
 
 Dependencies
 ------------
-SundayMassReadings depends on the following other software:
+SundayMassReadings depends on the following other excellent software:
 
 * [Datejs] (http://www.datejs.com) provides date processing in JavaScript.
 

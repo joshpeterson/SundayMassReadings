@@ -1,6 +1,3 @@
-// This software is licensed under the MIT License http://www.opensource.org/licenses/mit-license.php.
-// See https://github.com/joshpeterson/SundayMassReadings for more details.
-
 var baseUrl = "http://www.usccb.org/bible/readings/";
 
 var sundayMassReadingData =
