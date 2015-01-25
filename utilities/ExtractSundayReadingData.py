@@ -23,13 +23,16 @@ def BuildSundayMassReadingJson(html_string, url_string):
             return
         readings = sub_readings
 
-    if len(readings) != 4:
+    gospelIndex = 3
+    if len(readings) == 5:
+        gospelIndex = 4
+    elif len(readings) != 4:
         print "Check readings for " + date + " too may readings found."
 
     firstReading = readings[0].text
     psalm = readings[1].text
     secondReading = readings[2].text
-    gospelReading = readings[3].text
+    gospelReading = readings[gospelIndex].text
 
     json_entry = "\"" + date + "\"" + ":{title:\"" + title + "\",url:\"" + url_string + "\",first:\"" + firstReading + "\",psalm:\"" + psalm + "\",second:\"" + secondReading + "\",gospel:\"" + gospelReading + "\"},"
     print json_entry
