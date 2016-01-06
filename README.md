@@ -1,7 +1,7 @@
 Sunday Mass Readings
 ============
 
-[Sunday Mass Readings](http://joshpeterson.github.io/SundayMassReaduings) is a website which provides links to the Sunday mass readings on the USCCB website.
+[Sunday Mass Readings](http://joshpeterson.github.io/SundayMassReadings) is a website which provides links to the Sunday mass readings on the USCCB website.
 
 ![Screen shot](screenshot.png)
 
