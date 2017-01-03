@@ -1,3 +1,5 @@
+I've decided to stop updating this site after 2016. I'm no longer using it, but I'll leave the repo here for reference.
+
 Sunday Mass Readings
 ============
 
